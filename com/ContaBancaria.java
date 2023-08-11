@@ -19,7 +19,7 @@ public class ContaBancaria {
     public int getConta() {
         return conta;
     }
-    public void setConta(int conta) {
+    private void setConta(int conta) {
         this.conta = conta;
     }
 
@@ -27,7 +27,7 @@ public class ContaBancaria {
     public String getNome() {
         return nome;
     }
-    public void setNome(String nome) {
+    private void setNome(String nome) {
         this.nome = nome;
     }
 

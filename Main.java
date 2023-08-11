@@ -30,8 +30,8 @@ public class Main {
 
     public static void addAgencia (AgenciaBancaria a) {
         for (int i = 0; i < agencias.size(); i++){
-            if (agencias.get(i).getAgência() == a.getAgência()){
-                System.out.println("\nA agência " + a.getAgência() + " já existe.");
+            if (agencias.get(i).getAgencia() == a.getAgencia()){
+                System.out.println("\nA agência " + a.getAgencia() + " já existe.");
                 return;
             }
         }
@@ -40,13 +40,13 @@ public class Main {
 
     public static void viewAgencias () {
         for (int i = 0; i < agencias.size(); i++){
-            System.out.println("Agência: " + agencias.get(i).getAgência());
+            System.out.println("Agência: " + agencias.get(i).getAgencia());
         }
     }
 
     public static void accessAgencia (int x) {
         for (int i = 0; i < agencias.size(); i++){
-            if (agencias.get(i).getAgência() == x){
+            if (agencias.get(i).getAgencia() == x){
                 agencias.get(i).actions();
                 return;
             }

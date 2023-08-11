@@ -3,21 +3,21 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AgenciaBancaria {
-    private int agência;
+    private int agencia;
     private ArrayList<ContaBancaria> ListaDeContas = new ArrayList<ContaBancaria>();
-    Scanner scan = new Scanner(System.in);
+    private Scanner scan = new Scanner(System.in);
 
     //CONSTRUTOR
     public AgenciaBancaria (int numero) {
-        setAgência(numero);
+        setAgencia(numero);
     }
 
     //SET-GET NÚMERO DA AGÊNCIA
-    public void setAgência(int agência) {
-        this.agência = agência;
+    private void setAgencia(int agencia) {
+        this.agencia = agencia;
     }
-    public int getAgência() {
-        return agência;
+    public int getAgencia() {
+        return agencia;
     }
 
     //ADICIONAR CONTA
@@ -63,7 +63,7 @@ public class AgenciaBancaria {
         int conta = 0;
         while (options < 3){
             //MOSTRAR MENU
-            System.out.println("\n--- Menu Agência " + getAgência() + " ---\n0. Adicionar conta\n1. Remover conta\n2. Acessar conta\n3. Voltar");
+            System.out.println("\n--- Menu Agência " + getAgencia() + " ---\n0. Adicionar conta\n1. Remover conta\n2. Acessar conta\n3. Voltar");
             //RECEBER UM NÚMERO DO USUÁRIO
             options = scan.nextInt();
             //TRATAR AS OPÇÕES
