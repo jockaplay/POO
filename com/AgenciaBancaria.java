@@ -3,8 +3,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AgenciaBancaria {
-    public int agência;
-    public ArrayList<ContaBancaria> ListaDeContas = new ArrayList<ContaBancaria>();
+    private int agência;
+    private ArrayList<ContaBancaria> ListaDeContas = new ArrayList<ContaBancaria>();
     Scanner scan = new Scanner(System.in);
 
     //CONSTRUTOR
