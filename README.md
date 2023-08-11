@@ -1,3 +1,4 @@
 # POO
 
-![a drawio](https://github.com/jockaplay/POO/assets/74666954/79efb477-f61c-42ad-bb2b-26679f848d45)
+![a drawio (4)](https://github.com/jockaplay/POO/assets/74666954/b0f179f2-853f-4a2b-a87f-aa70f64390b6)
+![a drawio (6)](https://github.com/jockaplay/POO/assets/74666954/58472750-1425-4a60-a94e-effe43d1db30)
